@@ -114,3 +114,49 @@ ul a:hover{
     justify-content: center;
     gap: 16px;
 }
+.feature{
+    padding-top: 50px;
+}
+.feature .feature-container{
+    width: 85%;
+    max-width: 1360px;
+    margin: 0 auto;
+    text-align: center;
+}
+.section-title h1{
+    font-size: 48px;
+    font-weight: 700;
+}
+.section-title p{
+    color: #627382;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 16px;
+}
+.feature .feature-box{
+    display: flex;
+    gap: 25px;
+    padding-top: 45px;
+}
+.feature .feature-box img{
+    background-color: #F95555;
+    padding: 10px 10px;
+    border-radius: 100px;
+    align-items: center;
+}
+.feature .feature-card{
+    padding: 70px 24px;
+    box-shadow: 0 6px 10px #0000002f;
+    max-width: 322px;
+    max-height: 300px;
+
+}
+.feature .feature-card h3{
+    padding: 15px;
+    font-size: 24px;
+    font-weight: 600;
+}
+.feature .feature-card p{
+    color:#627382;
+    font-weight: 400;
+}
