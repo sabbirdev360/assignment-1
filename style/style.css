@@ -136,7 +136,8 @@ ul a:hover{
 .feature .feature-box{
     display: flex;
     gap: 25px;
-    padding-top: 45px;
+    padding: 45px;
+
 }
 .feature .feature-box img{
     background-color: #F95555;
@@ -146,7 +147,7 @@ ul a:hover{
 }
 .feature .feature-card{
     padding: 70px 24px;
-    box-shadow: 0 6px 10px #0000002f;
+    box-shadow: 0 6px 6px #0000002f;
     max-width: 322px;
     max-height: 300px;
 
