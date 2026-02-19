@@ -136,7 +136,7 @@ ul a:hover{
 .feature .feature-box{
     display: flex;
     gap: 25px;
-    padding: 45px;
+    padding-top: 45px;
 
 }
 .feature .feature-box img{
@@ -160,4 +160,31 @@ ul a:hover{
 .feature .feature-card p{
     color:#627382;
     font-weight: 400;
+}
+.solution{
+    padding: 120px 120px;
+    display: flex;
+    gap: 60px;
+}
+.solution-content h6{
+    margin-top: 120px;
+    color: #469165;
+}
+.solution-content h1{
+    font-size: 48px;
+    font-weight: 700;
+    padding: 16px 0;
+}
+#solution-text-color{
+    color: #627382;
+    padding-bottom: 40px;
+}
+.solution-content .point-item {
+    align-items: center;
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.solution-content .point-item img{
+    margin-right: 5px;
 }
