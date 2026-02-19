@@ -206,3 +206,35 @@ ul a:hover{
     padding-top: 16px;
     padding-bottom: 24px;
 }
+footer{
+    background-color: #001931;
+}
+.footer-container{
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 120px;
+}
+.social-links h3{
+    font-size: 20px;
+    font-weight: 500;
+    color: #FFFFFF;
+    padding-bottom: 16px;
+}
+.social-links a{
+    color: #FFFFFF;
+    padding-right: 16px;
+}
+
+hr{
+   width: 85%;
+   max-width: 1360px;
+   margin-right: 120px; 
+   margin-left: 120px;
+}
+.copyright{
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    color: #FAFAFA;
+}
