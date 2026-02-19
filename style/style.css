@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Shared CSS */
+.btn{
+    background-color: #469165;
+    border-radius: 4px;
+    border: none;
+    padding: 12px 16px;
+    font-size: 16px;
+    font-weight: 600px;
+    color: #FFFFFF;
+}
+.btn:hover{
+    background-color: blueviolet;
+    cursor: pointer;
+}
+.white-btn{
+    background-color: transparent;
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+    border-radius: 4px;
+    padding: 11px 16px;
+    font-size: 16px;
+    font-weight: 600px;
+}
+.white-btn:hover{
+    background-color: yellowgreen;
+    cursor: pointer;
+}
+
+
+
+/* Main CSS */
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 120px;
+    width: 85%;
+    max-width: 1360px;
+    align-items: center;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 32px;
+    text-align: center;
+    margin: 34px 0;
+
+}
+ul a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 500px;
+    border-radius: 7px;
+    padding: 5px 5px;
+    transition: transform 0.3s ease ;
+}
+ul a:hover{
+    background-color: blueviolet;
+    transform: scale(1.1);
+    
+}
+.banner{
+    background: url("../assets/hero-bg.png") ;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 674px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.banner-container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    text-align: center;  
+}
+
+.early-access-badge {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #469165;
+  font-weight: 500;
+  background-color: #FFFFFF;
+  border-radius:1000px;
+  padding: 7px 10px;
+}
+
+.banner  h1{
+    color: #FFFFFF;
+    font-size: 72px;
+    line-height: 84px;
+    margin: 16px auto;
+    
+}
+.banner #title-color{
+    color: #30B868;
+}
+.banner-container .banner-content{
+    font-weight: 400px;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 15px;
+    color: #FFFFFF;
+}
+.banner-container .banner-btn {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
